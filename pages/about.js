@@ -1,5 +1,15 @@
+import Head from 'next/head'
+
 const About = () => {
-    return (  <div>
+    return ( 
+        <>
+          <Head>
+        <title>Ninja list | About</title>
+        <meta name="keywords" content="ninjas"/>
+        </Head>
+         <div>
+        
+     
         <h1>About</h1>
         <p>baskı testi yapacakken örnek 
             metinlere ihtiyaç duyduğumuzda kullanabileceğimiz 
@@ -7,7 +17,10 @@ const About = () => {
         <p>baskı testi yapacakken örnek 
             metinlere ihtiyaç duyduğumuzda kullanabileceğimiz 
             metinlerdir</p>
-    </div>);
+    </div>
+    </>
+    );
+    
 }
  
 export default About;

@@ -10,6 +10,11 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
+  <>
+  <Head>
+  <title>Ninja list | Home</title>
+  <meta name="keywords" content="ninjas"/>
+  </Head>
    <div>
 
     <h1 className={styles.title}>Homepage</h1>
@@ -24,5 +29,6 @@ export default function Home() {
             </Link>
            
    </div>
+   </>
   );
 }
