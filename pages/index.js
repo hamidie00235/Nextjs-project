@@ -12,14 +12,14 @@ export default function Home() {
   return (
    <div>
 
-    <h1>Homepage</h1>
-    <p>baskı testi yapacakken örnek 
+    <h1 className={styles.title}>Homepage</h1>
+    <p className={styles.text} > baskı testi yapacakken örnek 
             metinlere ihtiyaç duyduğumuzda kullanabileceğimiz 
             metinlerdir</p>
-            <p>baskı testi yapacakken örnek 
+            <p className={styles.text}  >baskı testi yapacakken örnek 
             metinlere ihtiyaç duyduğumuzda kullanabileceğimiz 
             metinlerdir</p>
-            <Link href="/ninjas" >
+            <Link href="/ninjas" className={styles.btn} >
             See Ninja List
             </Link>
            
